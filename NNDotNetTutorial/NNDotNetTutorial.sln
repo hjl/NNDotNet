@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example02 - Single Neuron Model", "Example02\Example02 - Single Neuron Model.csproj", "{47815710-5B5F-481A-B4F5-3F95F69C2312}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example03 - Single Layer Model", "Example03\Example03 - Single Layer Model.csproj", "{22E45C8F-61E0-4A14-9402-975572981E64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E2D30604-ECE1-477E-9111-A26C9DB25C54}"
+	ProjectSection(SolutionItems) = preProject
+		Logistic sigmoid example.xlsx = Logistic sigmoid example.xlsx
+		LogisticSigmoid.PNG = LogisticSigmoid.PNG
+		README.txt = README.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example01 - Vectors and Matrices", "Example01\Example01 - Vectors and Matrices.csproj", "{7AFBF6A5-D064-4E8D-A76E-021D81DFBA94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example04 - Two Stacked Layers", "Example04\Example04 - Two Stacked Layers.csproj", "{C40E3337-63D8-4014-B7A2-4680FC09709E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example05 - Backpropagation", "Example05\Example05 - Backpropagation.csproj", "{327B1194-5BD5-40FD-81F9-C0847B6E677D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example06 - Restricted Boltzmann Machine", "Example06\Example06 - Restricted Boltzmann Machine.csproj", "{68481CEE-6D78-4E41-9FDF-DFFDE533B200}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example07 - Stacked RBMs", "Example07\Example07 - Stacked RBMs.csproj", "{BCAAFEEC-94F4-4D0B-BDE6-47E1B2F5D489}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47815710-5B5F-481A-B4F5-3F95F69C2312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47815710-5B5F-481A-B4F5-3F95F69C2312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47815710-5B5F-481A-B4F5-3F95F69C2312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47815710-5B5F-481A-B4F5-3F95F69C2312}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22E45C8F-61E0-4A14-9402-975572981E64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22E45C8F-61E0-4A14-9402-975572981E64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22E45C8F-61E0-4A14-9402-975572981E64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22E45C8F-61E0-4A14-9402-975572981E64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AFBF6A5-D064-4E8D-A76E-021D81DFBA94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AFBF6A5-D064-4E8D-A76E-021D81DFBA94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AFBF6A5-D064-4E8D-A76E-021D81DFBA94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AFBF6A5-D064-4E8D-A76E-021D81DFBA94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C40E3337-63D8-4014-B7A2-4680FC09709E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C40E3337-63D8-4014-B7A2-4680FC09709E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C40E3337-63D8-4014-B7A2-4680FC09709E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C40E3337-63D8-4014-B7A2-4680FC09709E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{327B1194-5BD5-40FD-81F9-C0847B6E677D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{327B1194-5BD5-40FD-81F9-C0847B6E677D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{327B1194-5BD5-40FD-81F9-C0847B6E677D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{327B1194-5BD5-40FD-81F9-C0847B6E677D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68481CEE-6D78-4E41-9FDF-DFFDE533B200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68481CEE-6D78-4E41-9FDF-DFFDE533B200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68481CEE-6D78-4E41-9FDF-DFFDE533B200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68481CEE-6D78-4E41-9FDF-DFFDE533B200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCAAFEEC-94F4-4D0B-BDE6-47E1B2F5D489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCAAFEEC-94F4-4D0B-BDE6-47E1B2F5D489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCAAFEEC-94F4-4D0B-BDE6-47E1B2F5D489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCAAFEEC-94F4-4D0B-BDE6-47E1B2F5D489}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
