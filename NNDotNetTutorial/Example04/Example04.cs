@@ -12,7 +12,8 @@ using MathNet.Numerics.Random;
 //    where w[row] is the set of weights for the neuron in a given row.
 // The scalar output of each neuron is computed as in Example 02, as the non-linear response to the 
 //    weighted sum of the inputs.
-// The output of the layer is now a vector, y[row]
+// The output of the layer is now a vector, y[row]. But the output of the first layer is "hidden"
+//    with only the second (last) layer being exposed as a function output.
 //
 // We can compute the output of the entire layer of neurons by applying the activation function
 //    to each element of the product of matrix W and vector x.
